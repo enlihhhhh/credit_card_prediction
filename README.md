@@ -1,5 +1,5 @@
 # Credit Card Prediction Repository
-<hr style="border:2px solid blue"> </hr>
+<hr style="border:2px solid gray"> </hr>
 
 ## Contributors
 - @enlihhhhh
@@ -30,6 +30,7 @@ Our team's reason for choosing this particular dataset is as follows:
 > - Especially so as financial firms would collect as many information as possible to determine if the client impose a high risk
 > - After all, the credit system is akin to a short term loan
 <hr style="border:2px solid gray"> </hr>
+
 ## Content page
 ### Repository Content
 1. [Main Project File](https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction) 
@@ -50,6 +51,8 @@ Our team's reason for choosing this particular dataset is as follows:
    - Data Engineering (Data wrangling, EDA, and Data insights)
    - Core Analysis (Machine Learning models and new techniques learnt)
    - Conclusion and Outcome (Data driven insights and recommendations)
+<hr style="border:2px solid gray"> </hr>
+
 ## Models used
 - SMOTE (required due to dataset being extremely unbalanced)
 - Decision Tree
