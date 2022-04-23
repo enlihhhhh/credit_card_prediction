@@ -60,13 +60,13 @@ Our team's reason for choosing this particular dataset is as follows:
 <hr style="border:2px solid gray"> </hr>
 
 ## Lesson Learnt
+### Through the project
 - SMOTE (Imbalanced dataset handling)
 - Onehot encoding (Handling of Categorical Data)
 - Random Forest from sklearn (Machine Learning model)
 - Logistic Regression from sklearn (Machine Learning model)
 - XGBClassifier from XGBoost (Machine Learning model)
-
-## Areas for improvements
+### Areas for improvements
 <hr style="border:2px solid gray"> </hr>
 
 ## References
