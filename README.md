@@ -57,8 +57,9 @@ Our team's reason for choosing this particular dataset is as follows:
 2. Random Forest
 3. Logistic Regression
 4. XGBoost Classification
+<hr style="border:2px solid gray"> </hr>
 
-### Lesson Learnt from project
+## Lesson Learnt
 - SMOTE (Imbalanced dataset handling)
 - Onehot encoding (Handling of Categorical Data)
 - Random Forest from sklearn (Machine Learning model)
