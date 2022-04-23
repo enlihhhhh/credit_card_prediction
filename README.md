@@ -65,6 +65,8 @@ Our team's reason for choosing this particular dataset is as follows:
 - Random Forest from sklearn (Machine Learning model)
 - Logistic Regression from sklearn (Machine Learning model)
 - XGBClassifier from XGBoost (Machine Learning model)
+
+## Areas for improvements
 <hr style="border:2px solid gray"> </hr>
 
 ## References
