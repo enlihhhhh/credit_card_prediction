@@ -26,6 +26,7 @@ Our team's reason for choosing this particular dataset is as follows:
 > - Especially so as financial firms would collect as many information as possible to determine if the client impose a high risk
 > - After all, the credit system is akin to a short term loan
 ## Content page
+### Repository Content
 1. [Main Project File](https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction) 
    - Problem Definition (Introduction and Content Explanation)
    - Data Wranggling and Data Cleaning (Dealing with duplicates, data types and null values etc.)
@@ -44,3 +45,10 @@ Our team's reason for choosing this particular dataset is as follows:
    - Data Engineering (Data wrangling, EDA, and Data insights)
    - Core Analysis (Machine Learning models and new techniques learnt)
    - Conclusion and Outcome (Data driven insights and recommendations)
+### Machine Learning Models used
+- SMOTE (required due to dataset being extremely unbalanced)
+- Decision Tree
+- Random Forest
+- Logistic Regression
+- XGBoost Classification
+
