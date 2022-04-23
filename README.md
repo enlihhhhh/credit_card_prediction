@@ -65,4 +65,8 @@ Our team's reason for choosing this particular dataset is as follows:
 - Random Forest from sklearn (Machine Learning model)
 - Logistic Regression from sklearn (Machine Learning model)
 - XGBClassifier from XGBoost (Machine Learning model)
-- 
+<hr style="border:2px solid gray"> </hr>
+
+## References
+- https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
+- https://slidesgo.com/
