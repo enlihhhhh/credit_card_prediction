@@ -1,8 +1,12 @@
 # Credit Card Prediction Repository
+<hr style="border:2px solid blue"> </hr>
+
 ## Contributors
 - @enlihhhhh
 - @tomokiteng
 - @sivadboon 
+<hr style="border:2px solid gray"> </hr>
+
 ## About
 ### Synopsis
 We are a group of NTU students undertaking the task of predicting the Credit Card Approval for our SC1015 module Mini-Project (Introduction to Data Science and Artificial Intelligence). We have taken our dataset from kaggle, under the **'Credit Card Approval Prediction'** [here](https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction).
@@ -25,6 +29,7 @@ Our team's reason for choosing this particular dataset is as follows:
 > - The dataset for the client's credit cartf approval is extremely exhaustive and delineate
 > - Especially so as financial firms would collect as many information as possible to determine if the client impose a high risk
 > - After all, the credit system is akin to a short term loan
+<hr style="border:2px solid gray"> </hr>
 ## Content page
 ### Repository Content
 1. [Main Project File](https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction) 
@@ -45,7 +50,7 @@ Our team's reason for choosing this particular dataset is as follows:
    - Data Engineering (Data wrangling, EDA, and Data insights)
    - Core Analysis (Machine Learning models and new techniques learnt)
    - Conclusion and Outcome (Data driven insights and recommendations)
-### Machine Learning Models used
+## Models used
 - SMOTE (required due to dataset being extremely unbalanced)
 - Decision Tree
 - Random Forest
