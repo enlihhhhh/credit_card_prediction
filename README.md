@@ -51,12 +51,17 @@ Our team's reason for choosing this particular dataset is as follows:
    - Data Engineering (Data wrangling, EDA, and Data insights)
    - Core Analysis (Machine Learning models and new techniques learnt)
    - Conclusion and Outcome (Data driven insights and recommendations)
-<hr style="border:2px solid gray"> </hr>
 
-## Models used
-- SMOTE (required due to dataset being extremely unbalanced)
-- Decision Tree
-- Random Forest
-- Logistic Regression
-- XGBoost Classification
+### Models used
+1. Decision Tree
+2. Random Forest
+3. Logistic Regression
+4. XGBoost Classification
 
+### Lesson Learnt from project
+- SMOTE (Imbalanced dataset handling)
+- Onehot encoding (Handling of Categorical Data)
+- Random Forest from sklearn (Machine Learning model)
+- Logistic Regression from sklearn (Machine Learning model)
+- XGBClassifier from XGBoost (Machine Learning model)
+- 
