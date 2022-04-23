@@ -69,6 +69,6 @@ Our team's reason for choosing this particular dataset is as follows:
 ### Areas for improvements
 <hr style="border:2px solid gray"> </hr>
 
-## References
+### References
 - https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
 - https://slidesgo.com/
