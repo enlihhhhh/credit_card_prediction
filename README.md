@@ -132,6 +132,7 @@ The rest of the variables are not a good estimate even though they are in the li
 
 ### Further Improvements
 We used XGBoost (rfe.ranking) to determine what is the following set of Predictor variables that had the highest importance in affecting the accuracy of the model; id est key factors that determined if our client was a 'good client' or a 'bad client'.
+
 However, we can further improve on our Predictor variables through the use of optimal feature selection, which would allow us to better get an answer for the best set of variables for models; id est better key factors in determining if our client was a 'good client' or a 'bad client'.
 <hr style="border:2px solid gray"> </hr>
 
