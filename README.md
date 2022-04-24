@@ -66,6 +66,37 @@ Our team's reason for choosing this particular dataset is as follows:
 - Random Forest from sklearn (Machine Learning model)
 - Logistic Regression from sklearn (Machine Learning model)
 - XGBClassifier from XGBoost (Machine Learning model)
+
+### Extra Improvements : Using XGBoost (rfe.ranking) to determine the Best Predictors for our Response: 
+For our extra improvements, we decided to use XGBoost to determine what are the best predictors for our response.
+**The code we used for our Extra Improvements are as follows:**
+`from sklearn.feature_selection import RFE
+from sklearn.pipeline import Pipeline
+from xgboost.sklearn import XGBClassifier
+from sklearn.model_selection import cross_val_score, RepeatedStratifiedKFold
+
+target_df = X_train_bal.copy()
+cols = list(target_df.columns)
+XGB_model = XGBClassifier() 
+rfe = RFE(XGB_model)
+
+X_rfe = rfe.fit_transform(X_train_bal,y_train_bal.GOOD_OR_BAD_CLIENT.ravel())
+
+XGB_model.fit(X_rfe,y_train_bal)
+temp_df = pd.Series(rfe.support_,index=cols)
+selected_features = temp_df[temp_df==True].index
+print(rfe.ranking_) # gives the ranking of all the variables, 1 being the most important
+print(selected_features) # prints out the columns which are the most important`
+
+we can see that the following variables have the highest importance affecting the accuracy of the model:
+- CNT_CHILDREN
+- AMT_INCOME_TOTAL
+- AGE_YEARS
+- YEARS_EMPLOYED
+- NAME_FAMILY_STATUS
+
+The rest of the variables are not a good estimate even though they are in the list, as not all types being included in the list 
+
 ### Areas for improvements
 <hr style="border:2px solid gray"> </hr>
 
