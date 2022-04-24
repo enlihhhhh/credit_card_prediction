@@ -13,6 +13,8 @@
 ### Synopsis
 We are a group of NTU students undertaking the task of predicting the Credit Card Approval for our SC1015 module Mini-Project (Introduction to Data Science and Artificial Intelligence). We have taken our dataset from kaggle, under the **'Credit Card Approval Prediction'** [here](https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction).
 ### Problem Definition
+How does the various data submitted by Credit Card Applicants determine their credit scores (i.e. Clients’ Risk) based on prediction of future defaults and credit card loans?
+### Defining Risks
 Our team's objective is to distinguish the good clients from the bad clients based on the time taken for them to repay their loans. The risk is based on the time taken for them to repay their loans. We have defined the good clients and bad clients as follows:
 > Good Clients
 > - Impose a low risk on banks
@@ -31,11 +33,17 @@ Our team's reason for choosing this particular dataset is as follows:
 > - The dataset for the client's credit cartf approval is extremely exhaustive and delineate
 > - Especially so as financial firms would collect as many information as possible to determine if the client impose a high risk
 > - After all, the credit system is akin to a short term loan
+
+> Prevalence
+> - In 2019, credit card stats showed that the average consumer credit card debt was higher than it ever had been
+> - 2.8 billion credit cards in use worldwide
+> - 70% of people have at least one credit card
+
 <hr style="border:2px solid gray"> </hr>
 
 ## Content page
 ### Repository Content
-1. [Main Project File](https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction) 
+1. [Main Project File](https://github.com/enlihhhhh/credit_card_prediction/blob/main/credit_card_prediction_SC1015.ipynb) 
    - Problem Definition (Introduction and Content Explanation)
    - Data Wranggling and Data Cleaning (Dealing with duplicates, data types and null values etc.)
    - Exploratory Data Analysis (Exploring Numerical and Categorical variables, as well as further data cleaning and aggregation)
@@ -53,6 +61,11 @@ Our team's reason for choosing this particular dataset is as follows:
    - Data Engineering (Data wrangling, EDA, and Data insights)
    - Core Analysis (Machine Learning models and new techniques learnt)
    - Conclusion and Outcome (Data driven insights and recommendations)
+4. [Kaggle Data source](https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction)
+   - Introduction to Dataset (Background information and Problem Definition)
+   - Data Engineering (Data wrangling, EDA, and Data insights)
+   - Core Analysis (Machine Learning models and new techniques learnt)
+   - Conclusion and Outcome (Data driven insights and recommendations)a
 
 ### Models used
 1. Decision Tree
