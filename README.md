@@ -96,6 +96,7 @@ Our team's reason for choosing this particular dataset is as follows:
     - After the various steps we have taken to answer our problem definition, we have found that the machine learning model best suit our dataset was XGBoost with a model accuracy of 83.3%
     - XGBoost would be very useful model for the banks to predict if a client were a good client or bad client; given the risks of client defaulting on their payments upon credit card which banks should consider prior to the approval of their credit cards.
 
+### Areas for improvements
 ### Extra Improvements : Using XGBoost (rfe.ranking) to determine the Best Predictors for our Response: 
 For our extra improvements, we decided to use XGBoost to determine what are the best predictors for our response.
 
@@ -120,16 +121,18 @@ print(rfe.ranking_) # gives the ranking of all the variables, 1 being the most i
 print(selected_features) # prints out the columns which are the most important
 ```
 
-we can see that the following variables have the highest importance affecting the accuracy of the model:
+we can see that the following Predictor variables have the highest importance affecting the accuracy of the model:
 - CNT_CHILDREN
 - AMT_INCOME_TOTAL
 - AGE_YEARS
 - YEARS_EMPLOYED
 - NAME_FAMILY_STATUS
 
-The rest of the variables are not a good estimate even though they are in the list as not all types were included in the list 
+The rest of the variables are not a good estimate even though they are in the list as not all types were included in the list
 
-### Areas for improvements
+### Further Improvements
+We used XGBoost (rfe.ranking) to determine what is the following set of Predictor variables that had the highest importance in affecting the accuracy of the model; id est key factors that determined if our client was a 'good client' or a 'bad client'.
+However, we can further improve on our Predictor variables through the use of optimal feature selection, which would allow us to better get an answer for the best set of variables for models; id est better key factors in determining if our client was a 'good client' or a 'bad client'.
 <hr style="border:2px solid gray"> </hr>
 
 ### References
