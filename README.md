@@ -1,7 +1,7 @@
 # Credit Card Prediction Repository
 <hr style="border:2px solid gray"> </hr>
 
-![alt text](https://github.com/enlihhhhh/credit_card_prediction/blob/main/sc1015%20Cover%20Template%20(MD).JPG)
+![alt text](https://github.com/enlihhhhh/credit_card_prediction/blob/main/sc1015%20Cover%20Template.JPG)
 
 ## Contributors
 - @enlihhhhh
