@@ -150,6 +150,8 @@ However, we can further improve on our Predictor variables through the use of op
 <hr style="border:2px solid gray"> </hr>
 
 ### References
-- https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
-- https://shiftprocessing.com/credit-card/
-- https://slidesgo.com/
+- Dataset References https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
+- Slides Skeletal template https://slidesgo.com/
+- Credit card information https://shiftprocessing.com/credit-card/
+- Consumer debt information https://www.forbes.com/sites/elenabotella/2020/02/13/credit-card-debt-all-time-high-inflation-recession/?sh=42e6b569c323
+- Credit card statistics https://rcbcbankard.com/blogs/credit-card-statistics-global-facts-data-and-figures-16
