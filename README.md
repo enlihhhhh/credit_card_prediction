@@ -138,4 +138,5 @@ However, we can further improve on our Predictor variables through the use of op
 
 ### References
 - https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
+- https://shiftprocessing.com/credit-card/
 - https://slidesgo.com/
