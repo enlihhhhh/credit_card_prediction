@@ -56,7 +56,7 @@ Our team's reason for choosing this particular dataset is as follows:
    - Data Engineering (Data wrangling, EDA, and Data insights)
    - Core Analysis (Machine Learning models and new techniques learnt)
    - Conclusion and Outcome (Data driven insights and recommendations)
-3. [Project Slides Transcript](https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction)
+3. [Project Slides Transcript](https://github.com/enlihhhhh/credit_card_prediction/blob/main/Credit%20Card%20Prediction%20SC1015%20%E2%80%93%20Presentation%20Transcript.pdf)
    - Introduction to Dataset (Background information and Problem Definition)
    - Data Engineering (Data wrangling, EDA, and Data insights)
    - Core Analysis (Machine Learning models and new techniques learnt)
