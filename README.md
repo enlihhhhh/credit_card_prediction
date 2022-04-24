@@ -4,9 +4,9 @@
 ![alt text](https://github.com/enlihhhhh/credit_card_prediction/blob/main/sc1015%20Cover%20Template.JPG)
 
 ## Contributors
-- @enlihhhhh Data Cleaning, XGBoost Classification, Data Extraction, Data Resampling
-- @tomokiteng Data Visualisation, Slides, Script
-- @sivadboon Logistic Regression, Random Forest, Slides, Script
+- @enlihhhhh Data Cleaning, Data Extraction, Data Resampling, XGBoost Classification
+- @tomokiteng Data Visualisation, Decision Tree
+- @sivadboon Logistic Regression, Random Forest
 <hr style="border:2px solid gray"> </hr>
 
 ## About
@@ -30,7 +30,7 @@ Our team's reason for choosing this particular dataset is as follows:
 > - However, given that credit is built on the system of trust, it is important for the banks to known which are the clients that impose a higher risk so that they can be highlighted
 
 > Dataset
-> - The dataset for the client's credit cartf approval is extremely exhaustive and delineate
+> - The dataset for the client's credit card approval is extremely exhaustive and delineate
 > - Especially so as financial firms would collect as many information as possible to determine if the client impose a high risk
 > - After all, the credit system is akin to a short term loan
 
@@ -65,7 +65,7 @@ Our team's reason for choosing this particular dataset is as follows:
    - Introduction to Dataset (Background information and Problem Definition)
    - Data Engineering (Data wrangling, EDA, and Data insights)
    - Core Analysis (Machine Learning models and new techniques learnt)
-   - Conclusion and Outcome (Data driven insights and recommendations)a
+   - Conclusion and Outcome (Data driven insights and recommendations)
 
 ### Models used
 1. Decision Tree
