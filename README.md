@@ -4,7 +4,7 @@
 ![alt text](https://github.com/enlihhhhh/credit_card_prediction/blob/main/sc1015%20Cover%20Template.JPG)
 
 ## Contributors
-- @enlihhhhh Data Cleaning, Data Extraction, Data Resampling, XGBoost Classification
+- @enlihhhhh Data Cleaning, Data Extraction, XGBoost Classification
 - @tomokiteng Data Visualisation, Decision Tree
 - @sivadboon Logistic Regression, Random Forest
 <hr style="border:2px solid gray"> </hr>
