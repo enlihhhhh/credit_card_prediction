@@ -43,7 +43,7 @@ Our team's reason for choosing this particular dataset is as follows:
 
 ## Content page
 ### Repository Content
-1. [Main Project File](https://github.com/enlihhhhh/credit_card_prediction/blob/main/credit_card_prediction_SC1015.ipynb) 
+1. [Main Project File](https://github.com/enlihhhhh/credit_card_prediction/blob/main/credit_card_prediction_MiniProject.ipynb) 
    - Problem Definition (Introduction and Content Explanation)
    - Data Wranggling and Data Cleaning (Dealing with duplicates, data types and null values etc.)
    - Exploratory Data Analysis (Exploring Numerical and Categorical variables, as well as further data cleaning and aggregation)
@@ -51,7 +51,7 @@ Our team's reason for choosing this particular dataset is as follows:
    - Data Visualisation (For all Response variables for a full picture)
    - Machine Learning (SMOTE, Decision Tree, Random Forest, Logistic Regression, XGBoost Classification)
    - Conclusion 
-2. [Project Slides Brief](https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction)
+2. [Project Slides Brief](https://github.com/enlihhhhh/credit_card_prediction/blob/main/Credit%20Card%20Prediction%20Slides.pptx)
    - Introduction to Dataset (Background information and Problem Definition)
    - Data Engineering (Data wrangling, EDA, and Data insights)
    - Core Analysis (Machine Learning models and new techniques learnt)
