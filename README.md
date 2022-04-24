@@ -67,10 +67,39 @@ Our team's reason for choosing this particular dataset is as follows:
 - Logistic Regression from sklearn (Machine Learning model)
 - XGBClassifier from XGBoost (Machine Learning model)
 
+### Data Driven Insights and Interesting Concepts
+1. SMOTE
+    - Given that our data was extremely imbalanced with most of our clients being classified as a 'good client', most models did not fit well initially. 
+    - To solve this issue, we used the concept of SMOTE (Synthetic Minority Oversampling Technique). 
+    - This allows additional points to be synthetically created which allows models to more effectively be trained to identify a 'bad client'
+ 
+ 2. K-fold cross validation
+    - It can be used to select the best parameters such as number of trees, depth of the tree, and the rate at which the gradient boosting learns. 
+
+3. Limits of Linear Regression -> Logistic Regression
+    - In our course, we learnt that we can use linear regression to predict numerical and continuous response using the independent variables. 
+    - However, the same cannot be said for categorical response. Hence, after some research online, we found out that we can use logistic regression to predict categorical response. 
+    
+4. Limits of Decision Tree -> Random Forest
+    - While decision trees are one of the most used models in predicting categorical variables, they may not return the model with the highest prediction accuracy. 
+    - Hence, we use Random forest to ensure the prediction to be more accurate (i.e. higher prediction accuracy) 
+    - This is done through an esemble learning method, which is operated by constructing a multitude of decision trees and return the mean prediction of the individual trees. 
+    
+5. Limits of Decision Tree -> XGBoost
+    - While decision trees are one of the most used models in predicting categorical variables, they often exhibit highly variable behaviour which may result in errors. 
+    - Hence, we use boosting to ensure that the trees are built sequentially such that each subsequent tree will reduce the errors of the previous tree. 
+    - In contrast to the Random Forest technique that we implemented earlier in which trees are grown to their maximum extent, XGBoost make uses of trees with fewer splits. Such small trees are easily comprehended and readble. 
+    
+6. Outcome
+    - After the various steps we have taken to answer our problem definition, we have found that the machine learning model best suit our dataset was XGBoost with a model accuracy of 83.3%
+    - XGBoost would be very useful model for the banks to predict if a client were a good client or bad client; given the risks of client defaulting on their payments upon credit card which banks should consider prior to the approval of their credit cards.
+
 ### Extra Improvements : Using XGBoost (rfe.ranking) to determine the Best Predictors for our Response: 
 For our extra improvements, we decided to use XGBoost to determine what are the best predictors for our response.
+
 **The code we used for our Extra Improvements are as follows:**
-`from sklearn.feature_selection import RFE
+```
+from sklearn.feature_selection import RFE
 from sklearn.pipeline import Pipeline
 from xgboost.sklearn import XGBClassifier
 from sklearn.model_selection import cross_val_score, RepeatedStratifiedKFold
@@ -86,7 +115,8 @@ XGB_model.fit(X_rfe,y_train_bal)
 temp_df = pd.Series(rfe.support_,index=cols)
 selected_features = temp_df[temp_df==True].index
 print(rfe.ranking_) # gives the ranking of all the variables, 1 being the most important
-print(selected_features) # prints out the columns which are the most important`
+print(selected_features) # prints out the columns which are the most important
+```
 
 we can see that the following variables have the highest importance affecting the accuracy of the model:
 - CNT_CHILDREN
@@ -95,7 +125,7 @@ we can see that the following variables have the highest importance affecting th
 - YEARS_EMPLOYED
 - NAME_FAMILY_STATUS
 
-The rest of the variables are not a good estimate even though they are in the list, as not all types being included in the list 
+The rest of the variables are not a good estimate even though they are in the list as not all types were included in the list 
 
 ### Areas for improvements
 <hr style="border:2px solid gray"> </hr>
